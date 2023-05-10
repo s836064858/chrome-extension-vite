@@ -28,7 +28,7 @@ export default defineConfig(() => {
         resolvers: [
           ElementPlusResolver(),
           IconsResolver({
-            enabledCollections: ['crx']
+            enabledCollections: ['ep']
           })
         ],
         dts: path.resolve(pathSrc, 'components.d.ts')
