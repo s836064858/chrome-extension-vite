@@ -13,7 +13,8 @@ export default defineConfig(() => {
     plugins: [
       vue(),
       crx({
-        manifest: './src/manifest.json'
+        manifest: './src/manifest.json',
+        reloadPage: false
       }),
       AutoImport({
         resolvers: [

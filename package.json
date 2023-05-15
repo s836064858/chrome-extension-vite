@@ -19,6 +19,6 @@
     "unplugin-icons": "^0.16.1",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.3.4",
-    "vite-plugin-crx-mv3": "^0.1.2"
+    "vite-plugin-crx-mv3": "^0.1.3"
   }
 }
