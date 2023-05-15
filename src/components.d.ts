@@ -11,5 +11,6 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElIcon: typeof import('element-plus/es')['ElIcon']
+    IEpSearch: typeof import('~icons/ep/search')['default']
   }
 }
